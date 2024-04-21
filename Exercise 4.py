@@ -8,4 +8,4 @@ try:
 except ValueError:
     print("That's not a Number!")
 except IndexError as indexerror:
-    print(indexerror.args)
+    print(indexerror.args[0])
